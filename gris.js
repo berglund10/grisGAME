@@ -16,6 +16,8 @@ Rbokstav, R, Rklar,
 Sbokstav, S, Sklar,
 bakgrund, bakgrundKlar;
 
+
+// Detta är setupen för spelet
 function setup() {
   canvas = makeCanvas(800, 600);
   stage.width = canvas.width;
@@ -173,7 +175,7 @@ function setup() {
   gameLoop();
 
 }
-
+// Detta är dess gameLoop
 function gameLoop() {
 
   requestAnimationFrame(gameLoop);

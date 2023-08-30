@@ -17,7 +17,7 @@ Sbokstav, S, Sklar,
 bakgrund, bakgrundKlar;
 
 
-// Detta är setupen för spelet
+// Detta är setupen för spelet, jazååå
 function setup() {
   canvas = makeCanvas(800, 600);
   stage.width = canvas.width;
